@@ -1,12 +1,22 @@
 $(document).ready(function () {
-    const age = parseInt(prompt("Please enter your age"))
+    const height = parseInt(prompt("Please enter your height"))
 
-    if (age > 21){
-        $("#rides").show();
-    } else if (age === 21) {
-        alert("Don't go wild!");
-        $("#rides").show();
+    if (height > 3 < 5){
+        $("#three").show();
+    } else if (height === 3) {
+        alert("Have Fun!");
+        $("#three").show();
     } else {
-        $("#Under-21").show();
+        $("#Under-3").show();
     }
+
+    if (height > 5){
+        $("#five").show();
+    } else if (height === 5) {
+        alert("Enjoy!");
+        $("#five").show();
+    } else {
+        $("#Under-5").show();
+    }
+
 })
