@@ -3,13 +3,12 @@ $(document).ready(function () {
 
     if (height === 3, 4 ){
         $("#three").show();
-        alert("Have Fun!")
-    } else if (height === 5) {
         alert("Have Fun!");
+    } else if (height === 5, 6){
         $("#five").show();
+        alert("Enjoy!");
     }else {
         $("#Under-3").show();
+
     }
-
-
 })
