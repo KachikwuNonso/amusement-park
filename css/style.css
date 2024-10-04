@@ -1,3 +1,8 @@
+*{
+    background-image: url("../img/Screenshot_20241002-105015.png");
+    background-repeat: no-repeat;
+}
+
 #three {
     display: none;
 }
